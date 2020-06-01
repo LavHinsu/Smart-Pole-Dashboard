@@ -1,40 +1,9 @@
-import React, { useState } from 'react';
-import { Form, Button } from 'react-bootstrap';
+import React from 'react';
 import NetlifyForm from 'react-netlify-form'
 
 
 
 const Report = () => {
-
-
-    // const [email, setEmail] = useState();
-    // const [poleId, setPoleID] = useState();
-    // const [issue, setIssue] = useState();
-
-
-
-
-    // const encode = (data) => {
-    //     return Object.keys(data)
-    //         .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    //         .join("&");
-    //   }
-
-    // const handleSubmit = e => {
-    //     var data = `{email: ${email}, poleId:${poleId},issue:${issue}}`
-    //     console.log(data)
-    //     fetch("/", {
-    //         method: "POST",
-    //         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-    //         body: encode({ "form-name": "report", ...data })
-    //     })
-    //         .then(() => alert("Success!"))
-    //         .catch(error => alert(error));
-
-    //     e.preventDefault();
-    // };
-
-
 
     return (
         <div>
@@ -74,7 +43,7 @@ const Report = () => {
                                         </select>
                                     </label>
                                 <br></br>
-                                <button>Submit</button>
+                                <button class="btn btn-primary">Submit</button>
                                 </div>
                             }
                         </div>
